@@ -10,7 +10,7 @@ Firstly, ensure that you have jquery version 3+ and jquery ui installed in your 
 Install packages for this library
 ```
 Install-Package Mvc.JQuery.DataTables
-Install-Package Mvc.JQuery.DataTables.Templates *
+Install-Package Mvc.JQuery.DataTables.Templates
 ```
 
 Now we need to bind model during startup of project
