@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model Mvc.JQuery.DataTables.DataTableConfigVm
+@Styles.Render("~/bundles/jquery-datatables-css")
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jquery-ui")
+@Scripts.Render("~/bundles/jquery-datatables-js")
+
+<br/>
+@Html.Partial("DataTable", Model)
